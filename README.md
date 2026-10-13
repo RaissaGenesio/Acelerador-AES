@@ -14,12 +14,30 @@ Desenvolver um IP digital sintetizável contendo:
 - suporte a técnicas de baixo consumo.
 
 ## Estrutura do repositório
+.
+├── docs/
+│   ├── architecture/
+│   ├── reports/
+│   └── spec/
+├── formal/
+├── models/
+├── rtl/
+├── scripts/
+├── syn/
+├── tb/
+├── upf/
+├── Makefile
+└── README.md.
+
+### Organização
 
 - `docs/` — documentação, especificações, arquitetura e relatórios;
-- `rtl/` — código RTL sintetizável;
-- `models/` — modelos comportamentais;
-- `tb/` — testbenches;
 - `formal/` — scripts e relatórios de verificação formal;
-- `syn/` — scripts, constraints e relatórios de síntese;
-- `upf/` — arquivos e relatórios de intenção de potência;
-- `scripts/` — scripts auxiliares e automação do fluxo.
+- `models/` — modelos comportamentais;
+- `rtl/` — código RTL sintetizável;
+- `scripts/` — scripts auxiliares e automação;
+- `syn/` — síntese, constraints e relatórios;
+- `tb/` — testbenches;
+- `upf/` — intenção de potência e baixo consumo;
+- `Makefile` — automação de lint, compilação e simulação;
+- `README.md` — visão geral do projeto.
