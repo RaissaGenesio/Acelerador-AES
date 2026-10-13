@@ -23,21 +23,28 @@ Os relatórios completos serão disponibilizados em:
 
 ## Ambiente e repositório
 
-- Repositório Git criado.
-- Estrutura inicial de diretórios criada.
+- Repositório Git criado e estruturado.
 - Branch da Semana 1 criada: `w01-kickoff`.
+- Ambiente Synopsys carregado no servidor da disciplina.
+- VCS validado para compilação e simulação em SystemVerilog.
+- Exemplo mínimo implementado em `rtl/porta_and.sv`.
+- Testbench implementado em `tb/porta_and_tb.sv`.
+- Lint executado com VCS sem erros.
+- Simulação executada com sucesso.
+- Makefile criado para automatizar o fluxo.
+- Fluxo completo validado com o comando `make all`.
 
 ## Resultados
 
-Em andamento.
+O ambiente mínimo de desenvolvimento foi validado com sucesso.
+O comando:
+`make all`
+executa automaticamente:
+1. lint do RTL;
+2. compilação do RTL e testbench;
+3. simulação funcional.
 
-## Problemas encontrados
+A simulação do exemplo mínimo confirmou corretamente a tabela-verdade 
+da porta AND.
 
-Nenhum problema relevante registrado até o momento.
 
-## Próximos passos
-
-- Adicionar os relatórios de estudo de AES e SPI.
-- Preparar o exemplo mínimo de RTL e testbench.
-- Configurar compilação, lint e simulação.
-- Criar o Makefile do fluxo mínimo.
