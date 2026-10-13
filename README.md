@@ -27,7 +27,7 @@ Desenvolver um IP digital sintetizável contendo:
 ├── tb/
 ├── upf/
 ├── Makefile
-└── README.md.
+└── README.md
 
 ### Organização
 
