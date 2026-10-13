@@ -14,6 +14,8 @@ Desenvolver um IP digital sintetizável contendo:
 - suporte a técnicas de baixo consumo.
 
 ## Estrutura do repositório
+
+```text
 .
 ├── docs/
 │   ├── architecture/
@@ -28,6 +30,7 @@ Desenvolver um IP digital sintetizável contendo:
 ├── upf/
 ├── Makefile
 └── README.md
+```
 
 ### Organização
 
@@ -39,5 +42,4 @@ Desenvolver um IP digital sintetizável contendo:
 - `syn/` — síntese, constraints e relatórios;
 - `tb/` — testbenches;
 - `upf/` — intenção de potência e baixo consumo;
-- `Makefile` — automação de lint, compilação e simulação;
-- `README.md` — visão geral do projeto.
+- `Makefile` — automação de lint, compilação e simulação.
