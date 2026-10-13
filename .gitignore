@@ -25,3 +25,11 @@ csrc/
 .DS_Store
 Thumbs.db
 .vscode/
+
+#VCS
+ucli.key
+
+# SpyGlass
+
+spyglass.out
+
