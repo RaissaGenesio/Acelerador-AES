@@ -1,0 +1,27 @@
+# Simulation
+*.vcd
+*.fsdb
+*.log
+
+# Synopsys
+*.svf
+*.mr
+*.pvl
+*.syn
+*.ddc
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Tool-generated directories
+work/
+INCA_libs/
+simv*
+csrc/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
